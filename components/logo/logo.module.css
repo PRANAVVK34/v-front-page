@@ -1,0 +1,33 @@
+.logo{
+    transform: translateX(90%);
+    margin-top: -4%;
+    margin-bottom: 1%;
+
+}
+@media only screen and (max-width:1024px){
+    .logo{
+        margin-top: -6vh;
+        margin-right: 10vw;
+    }
+}
+@media only screen and (max-width:768px) {
+    .logo{
+        margin-top: -6vh;
+        margin-right: 10vw;
+    }
+}
+
+@media only screen and (max-width:426px) {
+  .logo{
+    margin-top: -7vh;
+    margin-right: 16vw;
+}
+}
+
+@media only screen and (max-width:320px){
+    .logo{
+        margin-top: -10vh;
+        margin-right: 16vw;
+        
+    }
+}

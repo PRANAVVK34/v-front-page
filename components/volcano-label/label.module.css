@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+.label{
+    margin: 7% 0 0 3%;
+    font-size: xx-large;
+    font-weight: normal;
+    padding: 0;
+}
+.label h3 span{
+    color:#FFAC00;
+}
+.label a{
+    color:white;
+    text-decoration: none;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Space Mono', monospace;
+}
+.label p{
+    color: white;
+    margin-top: -13px;
+    padding: 0;
+    font-size: .7em;
+}
+.label p span{
+    color:#6A99FB;
+}
+.label br{
+    display: none;
+}
+
+@media only screen and (max-width:1024px) {
+    .label{
+        font-size: 2em;
+        margin: 15vh 0 0 5vw;
+    }
+    .label p{
+        font-size: .8em;
+    }
+}
+@media only screen and (max-width:1000px){
+    .label br{
+        display: block;
+    }
+}
+@media only screen and (max-width:768px){
+    .label{
+        font-size: 1.5em;
+        margin: 15vh 0 0 5vw;
+    }
+    .label p{
+        font-size: 1em;
+    }
+    .label br{
+        display: block;
+    }
+}
+@media only screen and (max-width:670px){
+    .label{
+        font-size: 1.4em;
+    }
+}
+@media only screen and (max-width:530px){
+    .label{
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width:426px) {
+    .label{
+        font-size: 1em;
+        margin: 10vh 0 0 5vw;
+    }
+    .label p{
+        font-size: .9em;
+    }
+    .label br{
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width:320px){
+.label{
+    font-size:smaller;
+    margin: 10vh 0 0 5vw;
+
+}
+.label br{
+    display: block;
+}
+
+}

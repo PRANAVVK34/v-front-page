@@ -1,0 +1,67 @@
+
+.time{
+ margin-top: 20% ;
+ margin-left: 3%;
+}
+.time h1{
+    color: white;
+    font-size: 4em;
+    margin: 0;
+    font-family:"helvetica";
+    font-weight: normal;
+}
+.time time{
+    color: #FFB300;
+    font-size: xx-large;
+}
+.time span{
+    color: white;
+    font-size: large;
+}
+@media only screen and (max-width:1024px){
+    .time{
+        margin: 100vw 20vh 0 5vw;
+    }
+    .time h1{
+        font-size:3.4em;
+    }
+    .time time{
+        font-size: 1.8em;
+    }
+}
+@media only screen and (max-width:768px){
+    .time{
+        margin: 100vw 20vh 0 5vw;
+    }
+    .time h1{
+        font-size:3.4em;
+    }
+    .time time{
+        font-size: 1.8em;
+    }
+}
+
+@media only screen and (max-width:426px) {
+    .time{
+        margin: 120vw 20vh 0 5vw;
+    }
+    .time h1{
+        font-size:2em;
+    }
+    .time time{
+        font-size: 1.4em;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .time{
+        margin: 100% 20vw 0 5vw;
+    }
+    .time h1{
+        font-size:2em;
+    }
+    .time time{
+        font-size: medium;
+    }
+    
+    }
